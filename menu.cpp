@@ -74,6 +74,10 @@ void menu(){
 				exit = true;
 				break;
 			}
+			else{
+				//invalid inputs goes here
+				continue;
+			}
 		}
 			
 	}
