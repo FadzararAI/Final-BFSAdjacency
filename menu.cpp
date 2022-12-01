@@ -48,7 +48,13 @@ void menu(){
 				//and call addEdge function to insert edge to graph
 				g.addEdge(u, v);
 			}
-			else if(chc == 2){}
+			else if(chc == 2){
+				cout << "Adjecency lists: " << endl;
+				//print all the inputted lists
+				for(int i = 0; i < lists.size(); i++){
+					cout << lists[i].first << " " << lists[i].second << endl;
+				}
+			}
 			else if(chc == 3){
 			cout << "Choose starting node: " << endl;
 				int src;
