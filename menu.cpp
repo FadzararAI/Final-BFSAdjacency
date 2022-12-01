@@ -29,7 +29,12 @@ void menu(){
 				reset = true;
 				break;
 			}
-			else if(chc == 5){}
+			else if(chc == 5){
+			//stops both inner and outer loop
+				reset = true;
+				exit = true;
+				break;
+			}
 		}
 			
 	}
