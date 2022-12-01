@@ -86,6 +86,7 @@ void menu(){
 			cout << "5. Exit Program" << endl << endl;
 			
 			int chc;
+			cout << "Input Your Option: ";
 			cin >> chc;
 			
 			if(chc == 1){
