@@ -1,3 +1,8 @@
+//helper function to help validate input
+bool validate(int a, int b, int x){
+	if(a >= x && x <= b) return true;
+	return false;
+}
 //Creates Menu Function
 void menu(){
 	bool exit = false;
